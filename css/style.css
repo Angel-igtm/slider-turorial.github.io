@@ -1,0 +1,23 @@
+.green {
+    background: yellow;
+    white: black
+}
+.buttons {
+    text-align: center;
+}
+.photos {
+    width: 300px;
+    position: relative;
+    height: 300px;
+    margin: 0 auto
+}
+.photos img {
+    width: 100%;
+    opacity: 0;
+    position: absolute;
+    height: 100%;
+    transition: opacity 1s;
+}
+.photos img.showed {
+    opacity: 1;
+}
